@@ -130,6 +130,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App\components\about\about.html" />
+    <Content Include="App\components\about\about.js" />
+    <Content Include="App\components\contact\contact.html" />
+    <Content Include="App\components\contact\contact.js" />
     <Content Include="Global.asax" />
     <Content Include="Index.html" />
     <Content Include="App\components\home\home.html" />
@@ -166,8 +170,6 @@
     <Folder Include="App_Data\" />
     <Folder Include="Controllers\" />
     <Folder Include="Models\" />
-    <Folder Include="scripts\controllers\" />
-    <Folder Include="scripts\services\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

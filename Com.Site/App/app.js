@@ -1,2 +1,2 @@
 ﻿/// <reference path="angular.min.js" />
-var app = angular.module("myApp", ["app.route", "app.controllers"]);
+var app = angular.module("app", ["app.route", "app.controllers"]);
